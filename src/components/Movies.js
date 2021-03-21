@@ -11,12 +11,12 @@ const Movies = () => {
     };
     
     return (
-        <container>
+        <>
             <h1>Film</h1>
 
             <button type="button" onClick={handleClick}>Click here</button>
             {data.map(movie => <Movie title={movie.title} actor={movie.actor} />)}
-        </container>
+        </>
     );
 };
 
