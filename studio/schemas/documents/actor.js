@@ -6,9 +6,13 @@ const actor = {
         {
             name: 'name',
             type: 'string',
+            title: 'actor',
+            description: 'Dette er navnet på skuespilleren',
+            validation: (Rule) => Rule.required(),
         },
 
     ]
 }
 
 export default actor;
+
